@@ -1,6 +1,26 @@
+import { useState } from "react";
+import UpdatePicturesStack from "./UpdatePicturesStack";
 
 
 const Update = () => {
+
+    const [images] = useState([
+        {
+            imageURL: "https://placehold.co/250x400"
+        },
+        {
+            imageURL: "https://placehold.co/250x400"
+        },
+        {
+            imageURL: "https://placehold.co/250x400"
+        },
+        {
+            imageURL: "https://placehold.co/250x400"
+        }
+    ]);
+
+
+
     return(
         <div className="dashboard_update">
             <div className="dashboard_update_buttons">
@@ -38,9 +58,9 @@ const Update = () => {
                             Look at these beautiful trees
                             #Trees #SK #Namiisland
                         </p>
-                        <div className="dashboard_update_display_card_details_pictures">
+                        {/*pictures stack*/}
+                        <UpdatePicturesStack images={images} />
 
-                        </div>
                         <div className="dashboard_update_display_card_details_buttons">
                             <button className="dashboard_update_display_card_details_buttons_button">
                                 150 Likes

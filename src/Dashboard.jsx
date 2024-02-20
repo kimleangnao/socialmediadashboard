@@ -4,10 +4,11 @@ import Update from "./components/Update";
 
 
 const Dashboard = () => {
+
     return(
         <div className="dashboard"> 
             <div className="dashboard_left">
-                <Panel />
+                <Panel imageProfile={"https://placehold.co/200x200"} />
          
             </div>
             <div className="dashboard_right">
