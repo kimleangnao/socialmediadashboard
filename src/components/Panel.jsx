@@ -24,7 +24,7 @@ const Panel = ({imageProfile}) => {
                 <div className="dashboard_left_panel_connect_input">
                     <input type="text" placeholder="link to your profile" className="dashboard_left_panel_connect_input_link" />
 
-                    <div className="dashboard_left_panel_connect_input_button dashboard_left_panel_connect_input_button-active">
+                    <div className="dashboard_left_panel_connect_input_button ">
                         <i className="fa-solid fa-link"></i>
                     </div>
                 </div>

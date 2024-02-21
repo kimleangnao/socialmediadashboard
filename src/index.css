@@ -165,6 +165,10 @@
     flex-flow: row wrap;
     align-items: flex-start;
     justify-content: flex-start;
+ 
+}
+.dashboard_update_display_card:last-child{
+    margin-bottom: 150px;
 }
 .dashboard_update_display_card_platform{
     height: 40px;

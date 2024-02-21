@@ -1,5 +1,6 @@
 import { useState } from "react";
-import UpdatePicturesStack from "./UpdatePicturesStack";
+
+import UpdateCard from "./UpdateCard";
 
 
 const Update = () => {
@@ -19,6 +20,392 @@ const Update = () => {
         }
     ]);
 
+    const [userInfo, setuserInfo] = useState({
+        id: "u_0001",
+        username: "Manifestexpress",
+        fullName: "Arthur Leywin",
+        role: "Social Media Manager",
+        companyName: "Manifest Express",
+        linked: [
+            {
+                id: "l_001",
+                platform: "Facebook",
+                link: "www.facebook.com/manifestexpress",
+                connection: true,
+                signIn : true
+            },
+            {
+                id: "l_002",
+                platform: "X",
+                link: "www.twitter.com/manifestexpress",
+                connection: true,
+                signIn : true
+            },
+            {
+                id: "l_003",
+                platform: "Instagram",
+                link: "www.instagram.com/manifestexpress",
+                connection: true,
+                signIn : true
+            }
+        ],
+        updateNotification: [
+            {
+                id: "n_001",
+                platform: "",
+                postId: "",
+                commentId: "",
+                userName: "",
+                userId: "",
+                commentText: "",
+            },
+            {
+                id: "n_002",
+                platform: "",
+                postId: "",
+                commentId: "",
+                userName: "",
+                userId: "",
+                commentText: "",
+            },
+            {
+                id: "n_003",
+                platform: "",
+                postId: "",
+                commentId: "",
+                userName: "",
+                userId: "",
+                commentText: "",
+            }
+        ],
+        posts: [
+            {
+                postId: "p_0001",
+                userId: "u_0001",
+                platform: "Facebook",
+                userName: "Manifest Express",
+                userAbout: "Travel Agency Company",
+                userProfilePicture: "https://placehold.co/85x85",
+                postText: "Look at these beautiful trees #Trees #SK #Namiisland",
+                postImages: [
+                    {
+                        imageURL: "https://placehold.co/250x400"
+                    },
+                    {
+                        imageURL: "https://placehold.co/250x400"
+                    },
+                    {
+                        imageURL: "https://placehold.co/250x400"
+                    },
+                    {
+                        imageURL: "https://placehold.co/250x400"
+                    },
+                    {
+                        imageURL: "https://placehold.co/250x400"
+                    },
+                    {
+                        imageURL: "https://placehold.co/250x400"
+                    },
+                    {
+                        imageURL: "https://placehold.co/250x400"
+                    },
+                    {
+                        imageURL: "https://placehold.co/250x400"
+                    }
+                ],
+                postLikes: [
+                    {
+                        id: "",
+                        userId: "",
+                        userName: "",
+                        date: ""
+                    },
+                    {
+                        id: "",
+                        userId: "",
+                        userName: "",
+                        date: ""
+                    },
+                    {
+                        id: "",
+                        userId: "",
+                        userName: "",
+                        date: ""
+                    },
+                    {
+                        id: "",
+                        userId: "",
+                        userName: "",
+                        date: ""
+                    }
+                ],
+                postComments: [
+                    {
+                        id: "",
+                        userId: "",
+                        userName: "",
+                        userComment: "",
+                        likes: [],
+                        comments : [],
+                        date: ""
+                    },
+                    {
+                        id: "",
+                        userId: "",
+                        userName: "",
+                        userComment: "",
+                        likes: [],
+                        comments : [],
+                        date: ""
+                    }
+                ],
+                postShares: [
+                    {
+                        id: "",
+                        userId: "",
+                        userName: "",
+                        date: ""
+                    },
+                    {
+                        id: "",
+                        userId: "",
+                        userName: "",
+                        date: ""
+                    },
+                    {
+                        id: "",
+                        userId: "",
+                        userName: "",
+                        date: ""
+                    },
+                    {
+                        id: "",
+                        userId: "",
+                        userName: "",
+                        date: ""
+                    }
+                ]
+
+            },
+            {
+                postId: "p_0002",
+                userId: "u_0001",
+                platform: "X",
+                userName: "Manifest Express",
+                userAbout: "Travel Agency Company",
+                userProfilePicture: "https://placehold.co/85x85",
+                postText: "Look at these beautiful trees #Trees #SK #Namiisland",
+                postImages: [
+                    {
+                        imageURL: "https://placehold.co/250x400"
+                    },
+                    {
+                        imageURL: "https://placehold.co/250x400"
+                    },
+                    {
+                        imageURL: "https://placehold.co/250x400"
+                    },
+                    {
+                        imageURL: "https://placehold.co/250x400"
+                    },
+                    {
+                        imageURL: "https://placehold.co/250x400"
+                    },
+                    {
+                        imageURL: "https://placehold.co/250x400"
+                    },
+                    {
+                        imageURL: "https://placehold.co/250x400"
+                    },
+                    {
+                        imageURL: "https://placehold.co/250x400"
+                    }
+                ],
+                postLikes: [
+                    {
+                        id: "",
+                        userId: "",
+                        userName: "",
+                        date: ""
+                    },
+                    {
+                        id: "",
+                        userId: "",
+                        userName: "",
+                        date: ""
+                    },
+                    {
+                        id: "",
+                        userId: "",
+                        userName: "",
+                        date: ""
+                    },
+                    {
+                        id: "",
+                        userId: "",
+                        userName: "",
+                        date: ""
+                    }
+                ],
+                postComments: [
+                    {
+                        id: "",
+                        userId: "",
+                        userName: "",
+                        userComment: "",
+                        likes: [],
+                        comments : [],
+                        date: ""
+                    },
+                    {
+                        id: "",
+                        userId: "",
+                        userName: "",
+                        userComment: "",
+                        likes: [],
+                        comments : [],
+                        date: ""
+                    }
+                ],
+                postShares: [
+                    {
+                        id: "",
+                        userId: "",
+                        userName: "",
+                        date: ""
+                    },
+                    {
+                        id: "",
+                        userId: "",
+                        userName: "",
+                        date: ""
+                    },
+                    {
+                        id: "",
+                        userId: "",
+                        userName: "",
+                        date: ""
+                    },
+                    {
+                        id: "",
+                        userId: "",
+                        userName: "",
+                        date: ""
+                    }
+                ]
+
+            },
+            {
+                postId: "p_0003",
+                userId: "u_0001",
+                platform: "Instagram",
+                userName: "Manifest Express",
+                userAbout: "Travel Agency Company",
+                userProfilePicture: "https://placehold.co/85x85",
+                postText: "Look at these beautiful trees #Trees #SK #Namiisland",
+                postImages: [
+                    {
+                        imageURL: "https://placehold.co/250x400"
+                    },
+                    {
+                        imageURL: "https://placehold.co/250x400"
+                    },
+                    {
+                        imageURL: "https://placehold.co/250x400"
+                    },
+                    {
+                        imageURL: "https://placehold.co/250x400"
+                    },
+                    {
+                        imageURL: "https://placehold.co/250x400"
+                    },
+                    {
+                        imageURL: "https://placehold.co/250x400"
+                    },
+                    {
+                        imageURL: "https://placehold.co/250x400"
+                    },
+                    {
+                        imageURL: "https://placehold.co/250x400"
+                    }
+                ],
+                postLikes: [
+                    {
+                        id: "",
+                        userId: "",
+                        userName: "",
+                        date: ""
+                    },
+                    {
+                        id: "",
+                        userId: "",
+                        userName: "",
+                        date: ""
+                    },
+                    {
+                        id: "",
+                        userId: "",
+                        userName: "",
+                        date: ""
+                    },
+                    {
+                        id: "",
+                        userId: "",
+                        userName: "",
+                        date: ""
+                    }
+                ],
+                postComments: [
+                    {
+                        id: "",
+                        userId: "",
+                        userName: "",
+                        userComment: "",
+                        likes: [],
+                        comments : [],
+                        date: ""
+                    },
+                    {
+                        id: "",
+                        userId: "",
+                        userName: "",
+                        userComment: "",
+                        likes: [],
+                        comments : [],
+                        date: ""
+                    }
+                ],
+                postShares: [
+                    {
+                        id: "",
+                        userId: "",
+                        userName: "",
+                        date: ""
+                    },
+                    {
+                        id: "",
+                        userId: "",
+                        userName: "",
+                        date: ""
+                    },
+                    {
+                        id: "",
+                        userId: "",
+                        userName: "",
+                        date: ""
+                    },
+                    {
+                        id: "",
+                        userId: "",
+                        userName: "",
+                        date: ""
+                    }
+                ]
+
+            }
+        ]
+    })
+
 
 
     return(
@@ -35,45 +422,9 @@ const Update = () => {
                 </div>
             </div>
             <div className="dashboard_update_display">
-                <div className="dashboard_update_display_card">
-                    <div className="dashboard_update_display_card_platform">
-                        Facebook
-                    </div>
-                    <div className="dashboard_update_display_card_details">
-                        <div className="dashboard_update_display_card_details_profile">
-                            <div className="dashboard_update_display_card_details_profile_user">
-                                <div className="dashboard_update_display_card_details_profile_user_image">
-
-                                </div>
-                                <div className="dashboard_update_display_card_details_profile_user_text">
-                                    <p className="dashboard_update_display_card_details_profile_user_text_maintext">Manifest Express</p>
-                                    <p className="dashboard_update_display_card_details_profile_user_text_subtext">Traveling Agency company</p>
-                                </div>
-                            </div>
-                            <div className="dashboard_update_display_card_details_profile_button">
-
-                            </div>
-                        </div>
-                        <p className="dashboard_update_display_card_details_text">
-                            Look at these beautiful trees
-                            #Trees #SK #Namiisland
-                        </p>
-                        {/*pictures stack*/}
-                        <UpdatePicturesStack images={images} />
-
-                        <div className="dashboard_update_display_card_details_buttons">
-                            <button className="dashboard_update_display_card_details_buttons_button">
-                                150 Likes
-                            </button>
-                            <button className="dashboard_update_display_card_details_buttons_button">
-                               50 Comments
-                            </button>
-                            <button className="dashboard_update_display_card_details_buttons_button">
-                                5 Shares
-                            </button>
-                        </div>
-                    </div>
-                </div>
+                <UpdateCard images={images} />
+                <UpdateCard images={images} />
+                <UpdateCard images={images} />
             </div>
         </div>
     )
