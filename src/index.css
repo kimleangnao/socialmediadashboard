@@ -182,7 +182,6 @@
 .dashboard_update_display_card_details{
     width: 100%;
     min-height: 250px;
-    padding-bottom: 25px;
     background-color: #335D84;
     display: flex;
     flex-flow: row wrap;
@@ -289,5 +288,107 @@
     border-radius: 5px;
 }
 .dashboard_update_display_card_details_buttons_button:hover{
+    cursor: pointer;
+}
+
+.dashboard_update_display_card_details_comments{
+    width: 100%;
+    margin-top: 25px;
+}
+.dashboard_update_display_card_details_comments_comment{
+    width: 100%;
+    min-height: 125px;
+    background-color: #4B4C5F;
+    display: flex;
+    flex-flow: row nowrap;
+    border-bottom: 2px solid white;
+}
+.dashboard_update_display_card_details_comments_comment_connect{
+    width: 125px;
+    background-color: white;
+    display: flex;
+    flex-flow: row wrap;
+}
+.dashboard_update_display_card_details_comments_comment_connect_box{
+    width: 50%;
+    height: 50%;
+}
+.dashboard_update_display_card_details_comments_comment_connect_box-1{
+    border-right: 2px solid black;
+}
+.dashboard_update_display_card_details_comments_comment_connect_box-2{
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.dashboard_update_display_card_details_comments_comment_connect_box-3{
+    border-right: 2px solid black;
+}
+.dashboard_update_display_card_details_comments_comment_connect_box-4{
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+}
+
+.dashboard_update_display_card_details_comments_comment_profile{
+    height: 125px;
+    flex: 0 0 125px; /* Fixed width */
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.dashboard_update_display_card_details_comments_comment_profile_image{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.dashboard_update_display_card_details_comments_comment_profile_image_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.dashboard_update_display_card_details_comments_comment_details{
+    flex: 1; /*grow to fit*/
+    color: white;
+}
+.dashboard_update_display_card_details_comments_comment_details_name{
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+    line-height: 40px;
+}
+.dashboard_update_display_card_details_comments_comment_details_text{
+    width: 60%;
+    min-height: 50px;
+    font-size: 16px;
+    padding: 5px 15px;
+    background-color: #414253;
+    border-radius: 2px;
+  
+}
+.dashboard_update_display_card_details_comments_comment_details_functions{
+    max-width: 300px;
+    height: 25px;
+    margin-top: 5px;
+    font-size: 12px;
+    background-color: #414253;
+    border-radius: 2px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.dashboard_update_display_card_details_comments_comment_details_functions_button{
+    height: 100%;
+    border: unset;
+    background-color: transparent;
+    color: white;
+    font-size: 12px;
+}
+.dashboard_update_display_card_details_comments_comment_details_functions_button-bold{
+    font-weight: bolder;
+}
+.dashboard_update_display_card_details_comments_comment_details_functions_button:hover{
     cursor: pointer;
 }

@@ -1,6 +1,8 @@
 
 
 
+import UpdateCardComment from "./UpdateCardComment";
+import UpdateCardCommentChildren from "./UpdateCardCommentChildren";
 import UpdatePicturesStack from "./UpdatePicturesStack";
 
 const UpdateCard = ({images}) => {
@@ -41,6 +43,17 @@ const UpdateCard = ({images}) => {
                     <button className="dashboard_update_display_card_details_buttons_button">
                         5 Shares
                     </button>
+                </div>
+                <div className="dashboard_update_display_card_details_comments">
+                    <UpdateCardComment />
+                    <UpdateCardCommentChildren />
+                    <UpdateCardCommentChildren />
+            
+                    <UpdateCardCommentChildren />
+                    <UpdateCardComment />
+                    <UpdateCardComment />
+                    <UpdateCardComment />
+
                 </div>
             </div>
         </div>
