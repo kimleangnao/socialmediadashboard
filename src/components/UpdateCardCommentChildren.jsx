@@ -35,14 +35,8 @@ const UpdateCardCommentChildren = () => {
                     <button className="dashboard_update_display_card_details_comments_comment_details_functions_button dashboard_update_display_card_details_comments_comment_details_functions_button-bold">
                         15 Likes
                     </button>
-                    <button className="dashboard_update_display_card_details_comments_comment_details_functions_button dashboard_update_display_card_details_comments_comment_details_functions_button-bold">
-                        15 Replies
-                    </button>
                     <button className="dashboard_update_display_card_details_comments_comment_details_functions_button">
                         02/22/2024
-                    </button>
-                    <button className="dashboard_update_display_card_details_comments_comment_details_functions_button">
-                        <i className="fa-solid fa-caret-down"></i>
                     </button>
                 </div>
             </div>

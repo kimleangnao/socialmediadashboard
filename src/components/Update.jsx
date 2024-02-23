@@ -115,69 +115,66 @@ const Update = () => {
                 ],
                 postLikes: [
                     {
-                        id: "",
-                        userId: "",
-                        userName: "",
-                        date: ""
+                        id: "pl_001",
+                        userId: "us_001",
+                        userName: "Alexa Lisa",
+                        date: "2/23/2024"
                     },
                     {
-                        id: "",
-                        userId: "",
-                        userName: "",
-                        date: ""
+                        id: "pl_002",
+                        userId: "us_002",
+                        userName: "Xue Xin",
+                        date: "2/22/2024"
                     },
                     {
-                        id: "",
-                        userId: "",
-                        userName: "",
-                        date: ""
+                        id: "pl_003",
+                        userId: "us_003",
+                        userName: "Ley Lin",
+                        date: "2/21/2024"
                     },
                     {
-                        id: "",
-                        userId: "",
-                        userName: "",
-                        date: ""
+                        id: "pl_004",
+                        userId: "us_004",
+                        userName: "Ken Alx",
+                        date: "2/22/2024"
                     }
                 ],
                 postComments: [
                     {
-                        id: "",
-                        userId: "",
-                        userName: "",
-                        userComment: "",
-                        likes: [],
-                        comments : [],
-                        date: ""
-                    },
-                    {
-                        id: "",
-                        userId: "",
-                        userName: "",
-                        userComment: "",
-                        likes: [],
-                        comments : [],
-                        date: ""
+                        id: "pc_001",
+                        userId: "us_001",
+                        userName: "Alexa Lisa",
+                        userComment: "I want to be there right now!!!",
+                        expand: false,
+                        likes: [
+                            {
+                                id: "pl_001",
+                                userId: "us_001",
+                                userName: "Alexa Lisa",
+                                date: "2/23/2024"
+                            }
+                        ],
+                        comments : [
+                            {
+                                id: "pc_0011",
+                                userId: "us_002",
+                                userName: "Xue Xin",
+                                userComment: "Go with me :D",
+                                likes: [
+                                    {
+                                        id: "pl_001",
+                                        userId: "us_001",
+                                        userName: "Alexa Lisa",
+                                        date: "2/23/2024"
+                                    }
+                                ],
+                                date: "2/24/2024"
+                            }
+                        ],
+                        date: "2/23/2024"
                     }
                 ],
                 postShares: [
-                    {
-                        id: "",
-                        userId: "",
-                        userName: "",
-                        date: ""
-                    },
-                    {
-                        id: "",
-                        userId: "",
-                        userName: "",
-                        date: ""
-                    },
-                    {
-                        id: "",
-                        userId: "",
-                        userName: "",
-                        date: ""
-                    },
                     {
                         id: "",
                         userId: "",
@@ -223,69 +220,65 @@ const Update = () => {
                 ],
                 postLikes: [
                     {
-                        id: "",
-                        userId: "",
-                        userName: "",
-                        date: ""
+                        id: "pl_001",
+                        userId: "us_001",
+                        userName: "Alexa Lisa",
+                        date: "2/23/2024"
                     },
                     {
-                        id: "",
-                        userId: "",
-                        userName: "",
-                        date: ""
+                        id: "pl_002",
+                        userId: "us_002",
+                        userName: "Xue Xin",
+                        date: "2/22/2024"
                     },
                     {
-                        id: "",
-                        userId: "",
-                        userName: "",
-                        date: ""
+                        id: "pl_003",
+                        userId: "us_003",
+                        userName: "Ley Lin",
+                        date: "2/21/2024"
                     },
                     {
-                        id: "",
-                        userId: "",
-                        userName: "",
-                        date: ""
+                        id: "pl_004",
+                        userId: "us_004",
+                        userName: "Ken Alx",
+                        date: "2/22/2024"
                     }
                 ],
                 postComments: [
                     {
-                        id: "",
-                        userId: "",
-                        userName: "",
-                        userComment: "",
-                        likes: [],
-                        comments : [],
-                        date: ""
-                    },
-                    {
-                        id: "",
-                        userId: "",
-                        userName: "",
-                        userComment: "",
-                        likes: [],
-                        comments : [],
-                        date: ""
+                        id: "pc_001",
+                        userId: "us_001",
+                        userName: "Alexa Lisa",
+                        userComment: "I want to be there right now!!!",
+                        likes: [
+                            {
+                                id: "pl_001",
+                                userId: "us_001",
+                                userName: "Alexa Lisa",
+                                date: "2/23/2024"
+                            }
+                        ],
+                        comments : [
+                            {
+                                id: "pc_0011",
+                                userId: "us_002",
+                                userName: "Xue Xin",
+                                userComment: "Go with me :D",
+                                likes: [
+                                    {
+                                        id: "pl_001",
+                                        userId: "us_001",
+                                        userName: "Alexa Lisa",
+                                        date: "2/23/2024"
+                                    }
+                                ],
+                                date: "2/24/2024"
+                            }
+                        ],
+                        date: "2/23/2024"
                     }
                 ],
                 postShares: [
-                    {
-                        id: "",
-                        userId: "",
-                        userName: "",
-                        date: ""
-                    },
-                    {
-                        id: "",
-                        userId: "",
-                        userName: "",
-                        date: ""
-                    },
-                    {
-                        id: "",
-                        userId: "",
-                        userName: "",
-                        date: ""
-                    },
                     {
                         id: "",
                         userId: "",
@@ -331,69 +324,65 @@ const Update = () => {
                 ],
                 postLikes: [
                     {
-                        id: "",
-                        userId: "",
-                        userName: "",
-                        date: ""
+                        id: "pl_001",
+                        userId: "us_001",
+                        userName: "Alexa Lisa",
+                        date: "2/23/2024"
                     },
                     {
-                        id: "",
-                        userId: "",
-                        userName: "",
-                        date: ""
+                        id: "pl_002",
+                        userId: "us_002",
+                        userName: "Xue Xin",
+                        date: "2/22/2024"
                     },
                     {
-                        id: "",
-                        userId: "",
-                        userName: "",
-                        date: ""
+                        id: "pl_003",
+                        userId: "us_003",
+                        userName: "Ley Lin",
+                        date: "2/21/2024"
                     },
                     {
-                        id: "",
-                        userId: "",
-                        userName: "",
-                        date: ""
+                        id: "pl_004",
+                        userId: "us_004",
+                        userName: "Ken Alx",
+                        date: "2/22/2024"
                     }
                 ],
                 postComments: [
                     {
-                        id: "",
-                        userId: "",
-                        userName: "",
-                        userComment: "",
-                        likes: [],
-                        comments : [],
-                        date: ""
-                    },
-                    {
-                        id: "",
-                        userId: "",
-                        userName: "",
-                        userComment: "",
-                        likes: [],
-                        comments : [],
-                        date: ""
+                        id: "pc_001",
+                        userId: "us_001",
+                        userName: "Alexa Lisa",
+                        userComment: "I want to be there right now!!!",
+                        likes: [
+                            {
+                                id: "pl_001",
+                                userId: "us_001",
+                                userName: "Alexa Lisa",
+                                date: "2/23/2024"
+                            }
+                        ],
+                        comments : [
+                            {
+                                id: "pc_0011",
+                                userId: "us_002",
+                                userName: "Xue Xin",
+                                userComment: "Go with me :D",
+                                likes: [
+                                    {
+                                        id: "pl_001",
+                                        userId: "us_001",
+                                        userName: "Alexa Lisa",
+                                        date: "2/23/2024"
+                                    }
+                                ],
+                                date: "2/24/2024"
+                            }
+                        ],
+                        date: "2/23/2024"
                     }
                 ],
                 postShares: [
-                    {
-                        id: "",
-                        userId: "",
-                        userName: "",
-                        date: ""
-                    },
-                    {
-                        id: "",
-                        userId: "",
-                        userName: "",
-                        date: ""
-                    },
-                    {
-                        id: "",
-                        userId: "",
-                        userName: "",
-                        date: ""
-                    },
                     {
                         id: "",
                         userId: "",
@@ -407,6 +396,27 @@ const Update = () => {
     })
 
 
+    const commentExpand = (postId, commentId) => {
+        let information = {...userInfo};
+        let findPost;
+        console.log(postId, commentId)
+        for(let i = 0; i < information.posts.length; i++){
+    
+            if(information.posts[i].postId == postId){
+                findPost = information.posts[i];   
+               
+            }
+        }
+
+        for(let i = 0; i < findPost.postComments.length; i++){
+            if(findPost.postComments[i].id == commentId){
+                findPost.postComments[i].expand = !findPost.postComments[i].expand; 
+            }
+        }
+
+        setuserInfo(information);
+      
+    }
 
     return(
         <div className="dashboard_update">
@@ -422,9 +432,13 @@ const Update = () => {
                 </div>
             </div>
             <div className="dashboard_update_display">
-                <UpdateCard images={images} />
-                <UpdateCard images={images} />
-                <UpdateCard images={images} />
+                {
+                    userInfo.posts.length > 0 ? userInfo.posts.map((v, i) => (
+                        <UpdateCard key={i} commentExpand={commentExpand}  valueOBject = {v} images={images} />
+                    )) : "nothing"
+                }
+               
+          
             </div>
         </div>
     )
