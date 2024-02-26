@@ -1,5 +1,6 @@
 
 
+import NewChildrenComment from "./NewChildrenComment";
 import UpdateCardCommentChildren from "./UpdateCardCommentChildren";
 
 const UpdateCardComment = ({postId,commentExpand, v}) => {
@@ -36,10 +37,13 @@ const UpdateCardComment = ({postId,commentExpand, v}) => {
                     </div>
                 </div>
             </div>
+          
             {
                 v.expand ? (<UpdateCardCommentChildren  />) : ""
             }
-         
+              {
+                v.expand ? (<NewChildrenComment  />) : ""
+            }
         </div>
     )
 }

@@ -201,22 +201,8 @@ const Update = () => {
                     },
                     {
                         imageURL: "https://placehold.co/250x400"
-                    },
-                    {
-                        imageURL: "https://placehold.co/250x400"
-                    },
-                    {
-                        imageURL: "https://placehold.co/250x400"
-                    },
-                    {
-                        imageURL: "https://placehold.co/250x400"
-                    },
-                    {
-                        imageURL: "https://placehold.co/250x400"
-                    },
-                    {
-                        imageURL: "https://placehold.co/250x400"
                     }
+
                 ],
                 postLikes: [
                     {
@@ -297,27 +283,6 @@ const Update = () => {
                 userProfilePicture: "https://placehold.co/85x85",
                 postText: "Look at these beautiful trees #Trees #SK #Namiisland",
                 postImages: [
-                    {
-                        imageURL: "https://placehold.co/250x400"
-                    },
-                    {
-                        imageURL: "https://placehold.co/250x400"
-                    },
-                    {
-                        imageURL: "https://placehold.co/250x400"
-                    },
-                    {
-                        imageURL: "https://placehold.co/250x400"
-                    },
-                    {
-                        imageURL: "https://placehold.co/250x400"
-                    },
-                    {
-                        imageURL: "https://placehold.co/250x400"
-                    },
-                    {
-                        imageURL: "https://placehold.co/250x400"
-                    },
                     {
                         imageURL: "https://placehold.co/250x400"
                     }

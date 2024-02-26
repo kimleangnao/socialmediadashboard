@@ -4,7 +4,11 @@
 import { useState } from "react";
 import UpdateCardComment from "./UpdateCardComment";
 import UpdateCardCommentChildren from "./UpdateCardCommentChildren";
+
 import UpdatePicturesStack from "./UpdatePicturesStack";
+
+
+import NewComment from "./NewComment";
 
 const UpdateCard = ({ commentExpand, valueOBject, images}) => {
 
@@ -49,16 +53,15 @@ const UpdateCard = ({ commentExpand, valueOBject, images}) => {
                 </div>
                 <div className="dashboard_update_display_card_details_comments">
                     {
+                        expandComments  ? (<NewComment />) : ""
+                    }
+                    {
                         expandComments ? 
                             valueOBject.postComments.map((v, i) => (
                                 <UpdateCardComment postId={valueOBject.postId} commentExpand={commentExpand} key={i} v={v} />
                             ))
                         : ""
                     }
-                 
-          
-                  
-            
                 </div>
             </div>
         </div>
