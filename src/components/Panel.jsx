@@ -48,6 +48,11 @@ const Panel = ({imageProfile}) => {
                     New Line
                 </button>
             </div>
+            <div className="dashboard_left_panel_logout">
+                <button className="dashboard_left_panel_logout_button">
+                    Log out
+                </button>
+            </div>
         </div>
     )
 }

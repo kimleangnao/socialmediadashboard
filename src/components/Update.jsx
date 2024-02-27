@@ -395,6 +395,13 @@ const Update = () => {
                 <div className="dashboard_update_buttons_button">
                     X
                 </div>
+                <div className="dashboard_update_buttons_button-absolute">
+                    <i className="fa-solid fa-bell iconBell"></i>
+                    <div className="dashboard_update_buttons_button_numbers">
+                            999
+                    </div>
+                </div>
+
             </div>
             <div className="dashboard_update_display">
                 {
